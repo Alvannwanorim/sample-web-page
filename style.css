@@ -81,7 +81,7 @@ nav {
     padding-right: 82px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(289px,1fr));
-    gap: 30px;
+    gap: 20px;
 }
 
 .card{
@@ -97,7 +97,7 @@ nav {
     background-color: #F3F3F3;
     position: relative;
     width: 289px;
-    margin-right: 83px;
+    /* margin-right: 83px; */
     margin-bottom: 83px;
 }
 
