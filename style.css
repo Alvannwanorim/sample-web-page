@@ -172,6 +172,134 @@ nav {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     text-transform: capitalize;
+}
+
+.hero {
+    width: 100%;
+
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 52px;
+    padding-top: 80px;
+    padding-right: 52px;
+}
+
+.left-content{
+    flex-basis: 70%;
+    justify-content: left;
+}
+
+
+.right-content{
+    flex-basis: 30%;
+    justify-content: right;
+}
+
+.hero-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.hero-desc  {
+    width: 320px;
+}
+.hero-desc p {
+    color: #000;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.hero-price{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+
+}
+
+.hero-price .p2  s{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+text-decoration: line-through;
+}
+
+.left-content button {
+    padding: 10px 52px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+
+}
+.left-content .btn  {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.right-content img {
+    width: 487px;
+    height: 244px;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+}
+
+.right-content .slider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.slider-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    
+}
+.slider-content li {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.hero-details {
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.hero-details ul {
+display: flex;
+flex-direction: row;
+}
+
+.hero-details ul li {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
 }
